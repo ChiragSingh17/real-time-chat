@@ -1,0 +1,6 @@
+{
+  "name": "Real-Time Chat App",
+  "description": "A full-stack real-time chat application using React, Express, and Socket.io with persistent message history, typing indicators, and online status tracking.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
