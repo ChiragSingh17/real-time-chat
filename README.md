@@ -87,21 +87,6 @@ npm run start
 
 ---
 
-## 🌐 Deploying to Render
-
-This application is ready to be deployed to **Render** as a **Web Service**:
-
-1. **Connect Repository**: Push your code to your GitHub or GitLab repository and connect it to a new **Web Service** in your Render dashboard.
-2. **Build & Start Settings**:
-   - **Runtime**: `Node`
-   - **Build Command**: `npm install && npm run build`
-   - **Start Command**: `npm run start`
-3. **Environment Variables**:
-   - `NODE_ENV`: `production`
-   - `MONGODB_URI`: Provide your MongoDB Atlas connection string (e.g. `mongodb+srv://...`). If left blank, the application will automatically fall back to secure local file storage in the container.
-4. **Ports**: Render automatically routes web traffic to whatever port the application listens to (handled automatically via `process.env.PORT`).
-
----
 
 ## 💡 Design Decisions
 
